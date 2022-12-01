@@ -1,3 +1,5 @@
+import '../src/style.css';
+
 const form = document.querySelector('.form__subscription');
 const formSecond = document.querySelector('.form__subscription-second');
 const submitFirst = document.querySelector('.form__subscription-button');

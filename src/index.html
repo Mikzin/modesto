@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+    <!-- <link rel="stylesheet" href="./style.css" /> -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -17,7 +17,7 @@
     <header class="header">
       <div class="header__head">
         <div class="header__main">
-          <img src="./images/logo.svg" alt="logo" class="header__logo" />
+          <img src="<%=require('./images/logo.svg')%>" alt="logo" class="header__logo" />
           <nav class="header__nav">
             <ul class="header__nav-list">
               <li class="header__nav-item">
@@ -41,7 +41,7 @@
           <div class="header__register">
             <button class="header__button button-login">Войти</button>
             <button class="header__button button-singup">Создать аккаунт</button>
-            <img src="./images/Sort.svg" class="header__menu" alt="menu">
+            <img src="<%=require('./images/Sort.svg')%>" class="header__menu" alt="menu">
           </div>
         </div>
       </div>
@@ -109,7 +109,7 @@
             <input type="password" class="form__subscription-input" id="password-rep" placeholder="Повторите пароль" required>
             </div>
 
-            <img src="./images/capcha.svg" class="form__subscription-capcha" alt="capcha">
+            <img src="<%=require('./images/capcha.svg')%>" class="form__subscription-capcha" alt="capcha">
 
             <div>
               <label for="capcha" class="form__subscription-name">Введите символы из картинки</label>
@@ -160,11 +160,11 @@
             <li class="footer__links-item"><a href="mailto:mflowers@flo.com" class="footer__link ">mflowers@flo.com</a></li>
           </ul>
           <button class="footer__button" type="button">Написать 
-            <img src="./images/Icon.svg" class="button-icon">
+            <img src="<%=require('./images/Icon.svg')%>" class="button-icon">
           </button>
         </div>
       </div>
     </footer>
-    <script src="./index.js"></script>
+    <!-- <script src="./index.js"></script> -->
   </body>
 </html>
